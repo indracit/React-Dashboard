@@ -186,7 +186,7 @@ export default function SideBar() {
           {open && ' Profile Form'}
         </Button>
         <Button sx={{color : colors.grey[100], margin:'4px' ,textTransform: 'none',fontSize : theme.typography.h6}} 
-          startIcon={<CalendarTodayOutlinedIcon />} component={Link} to="/"
+          startIcon={<CalendarTodayOutlinedIcon />} component={Link} to="/calender"
         >
           {open && ' Calender'}
         </Button>
