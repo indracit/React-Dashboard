@@ -24,14 +24,6 @@ import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
 import MapOutlinedIcon from '@mui/icons-material/MapOutlined';
 
 const drawerWidth = 240;
-// const trans= (theme)=>(
-// // {
-// //   width: drawerWidth,
-// //   transition: theme.transitions.create('width', {
-// //     // easing: 'cubic-bezier(0.1, 0.0, 0.0, 0.1)',
-// //     duration: theme.transitions.duration.enteringScreen,
-// //   })}
-// )
 
 
 const openedMixin = (theme) => ({
