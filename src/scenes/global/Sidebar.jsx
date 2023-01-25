@@ -183,7 +183,7 @@ export default function SideBar() {
           {open && ' Calender'}
         </Button>
         <Button sx={{color : colors.grey[100], margin:'4px' ,textTransform: 'none',fontSize : theme.typography.h6}}
-          startIcon={<HelpOutlinedIcon />} component={Link} to="/"
+          startIcon={<HelpOutlinedIcon />} component={Link} to="/faq"
           >
           {open && ' FAQ Page'}
         </Button>
