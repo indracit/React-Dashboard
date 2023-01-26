@@ -189,22 +189,22 @@ export default function SideBar() {
         </Button>
         {open && <Typography mt='15px' fontSize ={ theme.typography.h5}>Charts</Typography>} 
         <Button sx={{color : colors.grey[100], margin:'4px' ,textTransform: 'none',fontSize : theme.typography.h6}} 
-          startIcon={<BarChartOutlinedIcon />} component={Link} to="/"
+          startIcon={<BarChartOutlinedIcon />} component={Link} to="/bar"
         >
           {open && ' Bar Chart'}
         </Button>
         <Button sx={{color : colors.grey[100], margin:'4px' ,textTransform: 'none',fontSize : theme.typography.h6}}
-          startIcon={<PieChartOutlineOutlinedIcon />} component={Link} to="/"
+          startIcon={<PieChartOutlineOutlinedIcon />} component={Link} to="/pie"
         >
           {open && ' Pie Chart'}
         </Button>
         <Button sx={{color : colors.grey[100], margin:'4px',textTransform: 'none',fontSize : theme.typography.h6}} 
-          startIcon={<TimelineOutlinedIcon />} component={Link} to="/"
+          startIcon={<TimelineOutlinedIcon />} component={Link} to="/line"
           >
           {open && 'Line Chart'}
         </Button>
         <Button sx={{color : colors.grey[100], margin:'4px',textTransform: 'none',fontSize : theme.typography.h6}} 
-        startIcon={<MapOutlinedIcon />} component={Link} to="/"
+        startIcon={<MapOutlinedIcon />} component={Link} to="/geography"
         >
           {open && 'Geography Chart'}    
         </Button>

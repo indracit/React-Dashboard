@@ -8,12 +8,12 @@ import Team from './scenes/team/index';
 import Invoices from './scenes/invoices';
 import Contacts from './scenes/contacts/index';
 import Form from './scenes/form/index';
-// import Bar from './scenes/bar';
-// import Line from './scenes/line';
-// import Pie from './scenes/pie';
+import Bar from './scenes/bar/index';
+import Line from './scenes/line/index';
+import Pie from './scenes/pie/index';
 import FAQ from './scenes/faq/index';
 import Calender from './scenes/calender/calender';
-// import Geography from './scenes/geography';
+import Geography from './scenes/geography/index';
 
 function App() {
    const [theme, colorMode] = useMode();
@@ -31,11 +31,11 @@ function App() {
           <Route path='/contacts' element={<Contacts/>}/>
           <Route path='/invoices' element={<Invoices/>}/>
           <Route path='/form' element={<Form/>}/>
-          {/* <Route path='/bar' element={<Bar/>}/> */}
-          {/* <Route path='/pie' element={<Pie/>}/> */}
-          {/* <Route path='/line' element={<Line/>}/> */}
+          <Route path='/bar' element={<Bar/>}/>
+          <Route path='/pie' element={<Pie/>}/>
+          <Route path='/line' element={<Line/>}/>
           <Route path='/faq' element={<FAQ/>}/> 
-          {/* <Route path='/geography' element={<Geography/>}/>  */}
+          <Route path='/geography' element={<Geography/>}/> 
           <Route path='/calender' element={<Calender/>}/> 
          </Routes>
 
